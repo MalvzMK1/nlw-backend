@@ -66,7 +66,7 @@ model Guess {
 
   firstTeamPoints  Int
   secondTeamPoints Int
-  date             DateTime
+  createdAt        DateTime @default(now())
   gameId           String
   participantId    String
 
