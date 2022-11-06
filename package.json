@@ -22,6 +22,8 @@
     "@fastify/cors": "^8.1.1",
     "@prisma/client": "^4.5.0",
     "fastify": "^4.9.2",
-    "prisma": "^4.5.0"
+    "prisma": "^4.5.0",
+    "short-unique-id": "^4.4.4",
+    "zod": "^3.19.1"
   }
 }
