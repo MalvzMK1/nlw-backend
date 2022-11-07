@@ -43,7 +43,7 @@ model User {
 
   name      String
   email     String   @unique
-  // a interrogação permite o valor nulo
+  googleId  String?  @unique
   avatarUrl String?
   createdAt DateTime @default(now())
 
